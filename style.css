@@ -1,4 +1,49 @@
 body {
-  background-color: lightgreen
-;
+  background-color: white
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin :0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  opacity: .7;
+  text-align:center;
+
+}
+
+li {
+  display:inline-block;
+
+
+}
+
+li a {
+  display: block;
+  color: white;
+  font-style: normal;
+  font-family: sans-serif;
+  font-family: Roboto;
+  text-align: left;
+  padding: 120px 40px 10px 0px;
+  text-decoration: none;
+}
+
+nav {
+
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+}
+
+
+li a:hover {
+  background-color:;
+  color: lightgreen;
 }
