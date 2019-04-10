@@ -7,10 +7,8 @@ body {
 ul {
   list-style-type: none;
   margin :0;
-  padding: 0;
+  padding: 0px 0px;
   overflow: hidden;
-  background-color: #333;
-  opacity: .7;
   text-align:center;
 
 }
@@ -28,7 +26,7 @@ li a {
   font-family: sans-serif;
   font-family: Roboto;
   text-align: left;
-  padding: 120px 40px 10px 0px;
+  padding: 10px 50px 10px 0px;
   text-decoration: none;
 }
 
@@ -39,11 +37,15 @@ nav {
   top: 0;
   left: 0;
   right: 0;
+  background-color: #333;
+  opacity: .80;
+}
+.social{
+  float:right;
 
 }
 
-
 li a:hover {
   background-color:;
-  color: lightgreen;
+  color: #7ED321;
 }
