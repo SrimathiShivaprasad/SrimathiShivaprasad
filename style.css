@@ -11,12 +11,11 @@ ul {
   overflow: hidden;
   text-align:center;
 
+
 }
 
 li {
   display:inline-block;
-
-
 }
 
 li a {
@@ -25,8 +24,8 @@ li a {
   font-style: normal;
   font-family: sans-serif;
   font-family: Roboto;
-  text-align: left;
-  padding: 10px 50px 10px 0px;
+  text-align: center;
+  padding: 20px 50px 10px 0px;
   text-decoration: none;
 }
 
@@ -39,6 +38,7 @@ nav {
   right: 0;
   background-color: #333;
   opacity: .80;
+
 }
 .social{
   float:right;
