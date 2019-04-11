@@ -3,48 +3,76 @@ body {
 }
 
 
-
 ul {
   list-style-type: none;
-  margin :0;
   padding: 0px 0px;
   overflow: hidden;
   text-align:center;
-
-
 }
+
 
 li {
   display:inline-block;
+
 }
 
-li a {
+.tabs li a {
   display: block;
   color: white;
   font-style: normal;
   font-family: sans-serif;
   font-family: Roboto;
-  text-align: center;
-  padding: 20px 50px 10px 0px;
+  text-align:center;
+  padding: 0px 40px 0px 0px;
   text-decoration: none;
+  margin-left: 40px;
 }
 
 nav {
-
-
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  background-color: #333;
-  opacity: .80;
+  background: rgba(13, 13, 13, .7)
 
-}
-.social{
-  float:right;
 
 }
 
+.titleLogo {
+  text-align: center;
+}
+
+.myvideo{
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100%;
+  transform:translate(-50%, -50%);
+}
+
+.content{
+  position:fixed;
+  margin-top: 450px;
+  margin-left: 695px;
+    opacity: .80;
+
+}
+
+.social {
+  float: right;
+  margin-top: -115px;
+  margin-right: 60px;
+
+
+}
+
+.social li{
+    padding: 10px 0px 0px 20px;
+}
 li a:hover {
   background-color:;
   color: #7ED321;
