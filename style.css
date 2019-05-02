@@ -1,17 +1,17 @@
 body {
-  background-color: white
+  background-color: white;
+  margin:0px;
 }
 
 
-ul {
+nav ul {
   list-style-type: none;
   padding: 0px 0px;
   overflow: hidden;
   text-align:center;
 }
 
-
-li {
+nav li {
   display:inline-block;
 
 }
@@ -26,20 +26,28 @@ li {
   padding: 0px 40px 0px 0px;
   text-decoration: none;
   margin-left: 40px;
+
+}
+.active{
+color: #7ED321 !important;
+font-size: 18px;
+font-weight: 500;
 }
 
+
 nav {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(13, 13, 13, .7)
+  background: rgba(13, 13, 13, 0.6)
 
 
 }
 
 .titleLogo {
   text-align: center;
+  padding-top: 10px;
 }
 
 .myvideo{
@@ -56,8 +64,8 @@ nav {
 
 .content{
   position:fixed;
-  margin-top: 450px;
-  margin-left: 695px;
+  margin-top: 640px;
+  margin-left: 650px;
     opacity: .80;
 
 }
@@ -77,3 +85,72 @@ li a:hover {
   background-color:;
   color: #7ED321;
 }
+
+.aboutbanner > .banner-image {
+  width: 100%;
+  display: block;
+
+}
+
+/* Create three equal columns that floats next to each other */
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  margin-top: 10px;
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+.para1{
+  padding-left: 30px;
+  padding-right: 60px;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 25px;
+  font-weight: lighter;
+
+}
+.para2{
+  padding-left: 30px;
+  padding-right: 80px;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 25px;
+  font-weight: lighter;
+}
+
+
+h2 {
+  font-family: serif;
+  padding-top: 20px;
+}
+.para1 li a {
+  text-align: left;
+}
+
+.container{
+  padding-left: 10px;
+  padding-top: 10px;
+
+}
+.container img {
+  padding-left: 30px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
