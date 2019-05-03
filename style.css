@@ -30,8 +30,8 @@ nav li {
 }
 .active{
 color: #7ED321 !important;
-font-size: 18px;
-font-weight: 500;
+/* font-size: 18px;
+font-weight: 500; */
 }
 
 
@@ -121,6 +121,11 @@ li a:hover {
   line-height: 25px;
   font-weight: lighter;
 }
+h1 {
+  padding-top: 140px;
+  font-size: 28px;
+  text-align: center;
+}
 
 
 h2 {
@@ -132,15 +137,39 @@ h2 {
 }
 
 .container{
-  padding-left: 10px;
+  padding-left: 40px;
   padding-top: 10px;
+
+
+
 
 }
 .container img {
-  padding-left: 30px;
+  padding-left: 15px;
 }
 
 
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+}
 /* Clear floats after the columns */
 .row:after {
 
