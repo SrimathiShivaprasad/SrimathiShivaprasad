@@ -148,7 +148,20 @@ h2 {
   padding-left: 15px;
 }
 
+.row1 {
+  padding-left: 140px;
+}
 
+.row2{
+    padding-left: 140px;
+}
+.row1 img {
+  padding-left: 20px;
+}
+.row2 img {
+  padding-left: 20px;
+  padding-top: 30px;
+}
 
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
