@@ -43,6 +43,8 @@ nav {
   background: rgba(13, 13, 13, 0.6)
 
 
+
+
 }
 
 .titleLogo {
@@ -170,15 +172,16 @@ h3 {
 }
 
 .row2{
+
     padding-left: 140px;
 }
 .row1 img {
+    padding-left: 20px;
 box-shadow:2px 4px 7px #3E3E3E;
-  padding-left: 20px;
 
 }
 .row2 img {
-
+box-shadow:2px 4px 7px #3E3E3E;
   padding-left: 20px;
   padding-top: 30px;
 }
