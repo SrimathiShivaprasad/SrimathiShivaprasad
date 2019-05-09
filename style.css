@@ -36,7 +36,7 @@ font-weight: 500; */
 
 
 nav {
-  position: fixed;
+  position: absolute ;
   top: 0;
   left: 0;
   right: 0;
@@ -135,7 +135,20 @@ h2 {
 .para1 li a {
   text-align: left;
 }
+h3 {
+  font-size: 28px;
+  text-align: center;
+  padding-top: 20px;
 
+
+
+}
+
+.videos {
+  padding-left: 450px;
+
+}
+}
 .container{
   padding-left: 40px;
   padding-top: 10px;
