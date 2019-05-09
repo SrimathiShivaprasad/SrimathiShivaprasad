@@ -145,6 +145,7 @@ h3 {
 }
 
 .videos {
+
   padding-left: 450px;
 
 }
@@ -159,19 +160,25 @@ h3 {
 }
 .container img {
   padding-left: 15px;
+
 }
 
 .row1 {
+
   padding-left: 140px;
+
 }
 
 .row2{
     padding-left: 140px;
 }
 .row1 img {
+box-shadow:2px 4px 7px #3E3E3E;
   padding-left: 20px;
+
 }
 .row2 img {
+
   padding-left: 20px;
   padding-top: 30px;
 }
