@@ -40,7 +40,7 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(13, 13, 13, 0.7)
+  background: rgba(13, 13, 13, 0.8)
 
 
 
@@ -149,6 +149,7 @@ h3 {
 .videos {
 
   padding-left: 450px;
+  padding-top: 50px;
 
 }
 }
@@ -173,17 +174,17 @@ h3 {
 
 .row2{
 
-    padding-left: 140px;
+    margin-left: 140px;
 }
 .row1 img {
-    padding-left: 20px;
+    margin-left: 20px;
 box-shadow:2px 4px 7px #3E3E3E;
 
 }
 .row2 img {
 box-shadow:2px 4px 7px #3E3E3E;
-  padding-left: 20px;
-  padding-top: 30px;
+  margin-left: 20px;
+  margin-top: 30px;
 }
 
 /* The overlay effect - lays on top of the container and over the image */
