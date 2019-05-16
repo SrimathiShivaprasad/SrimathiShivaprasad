@@ -16,6 +16,9 @@ margin: 2px;
 display: none; /* Hidden by default */
 }
 
+/* .filterDiv img {
+  box-shadow:1px 1px 13px #3E3E3E;
+} */
 /* The "show" class is added to the filtered elements */
 .show {
 display: block;

@@ -146,6 +146,15 @@ h3 {
 
 
 }
+.container{
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+.container img {
+  padding-left: 15px;
+
+}
 
 .videos {
 
@@ -153,19 +162,8 @@ h3 {
   padding-top: 10px;
 
 }
-}
-.container{
-  padding-left: 40px;
-  padding-top: 10px;
 
 
-
-
-}
-.container img {
-  padding-left: 15px;
-
-}
 
 .row1 {
 
@@ -220,17 +218,18 @@ margin-bottom: 50px;
 table {
   margin-top: 30px;
   margin-bottom: 60px;
-  margin-left: 15px;
+
+
 }
 td {
-  padding: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;
   text-align: center;
 }
 
 th {
   padding-top: 15px;
 padding-bottom: 15px;
-
   background-color: rgba(13, 13, 13, 0.8);
 /* color: #7ED321; */
 color: #F5A623;
