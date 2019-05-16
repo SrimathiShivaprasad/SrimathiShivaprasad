@@ -85,7 +85,8 @@ nav {
 }
 li a:hover {
   background-color:;
-  color: #7ED321;
+color: #7ED321;
+
 }
 
 .aboutbanner > .banner-image {
@@ -178,15 +179,28 @@ h3 {
 }
 .row1 img {
     margin-left: 20px;
-box-shadow:2px 4px 7px #3E3E3E;
+box-shadow:14px 14px 57px #3E3E3E;
 
 }
 .row2 img {
-box-shadow:2px 4px 7px #3E3E3E;
+box-shadow:14px 14px 57px #3E3E3E;
   margin-left: 20px;
   margin-top: 30px;
 }
 
+.box1{
+  padding-top: 25px;
+  padding-left: 25px;
+}
+.rectangle1 {
+height: 380px;
+width: 1300px;
+background-color: white;
+box-shadow:2px 1px 17px #3E3E3E;
+margin-left: 65px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
   position: absolute;
@@ -201,6 +215,29 @@ box-shadow:2px 4px 7px #3E3E3E;
   font-size: 20px;
   padding: 20px;
   text-align: center;
+}
+
+table {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  margin-left: 15px;
+}
+td {
+  padding: 15px;
+  text-align: center;
+}
+
+th {
+  padding-top: 15px;
+padding-bottom: 15px;
+
+  background-color: rgba(13, 13, 13, 0.8);
+/* color: #7ED321; */
+color: #F5A623;
+text-align: center;
+font-family: sans-serif;
+font-weight: 400;
+
 }
 
 /* When you mouse over the container, fade in the overlay title */

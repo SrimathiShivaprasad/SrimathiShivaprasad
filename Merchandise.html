@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<html lang="en" dir="ltr">
+<!-- <meta name="viewport" content="width=device-width"> -->
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<head>
+    <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="mstyle.css">
+</head>
+
+<title>COLDPLAY WEBSITE</title>
+
+<body>
+
+  <nav>
+
+    <div class="titleLogo">
+      <a href="index.html">
+        <img src="img/Coldplaywhitelogo.png" height="65" width="287">
+      </a>
+    </div>
+
+    <ul class="tabs">
+      <li><a href="about.html">About</a></li>
+      <li><a href="Discography.html">Discography</a></li>
+      <li><a href="media.html">Media</a></li>
+      <li><a class = "active" href="Merchandise.html">Merchandise</a></li>
+      <li><a href="Tourdates.html">Tour Dates</a></li>
+    </ul>
+
+    <div>
+      <ul class="social">
+
+        <li><a href="https://www.facebook.com/coldplay"><img src="img/facebook.png" width="30" height="30"></a></li>
+        <li><a href="https://twitter.com/coldplay/"><img src="img/Twitter.png" width="30" height="30"></a></li>
+        <li><a href="https://www.instagram.com/coldplay/"><img src="img/Insta.png" width="30" height="30"></a></li>
+        <li><a href="https://plus.google.com/+Coldplay"><img src="img/google2x.png" width="30" height="30"></a></li>
+        <li><a href="http://coldplay.tumblr.com/"><img src="img/tumbler2x.png" width="30" height="30"></a></li>
+
+      </ul>
+    </div>
+
+  </nav>
+
+  <div class="aboutbanner">
+    <img class="banner-image" src="img/Merchandisebanner.jpg" />
+  </div>
+
+  <div id="myBtnContainer" class=buttons>
+    <button class="btn mactive" onclick="filterSelection('all')"> SHOW ALL</button>
+    <button class="btn" onclick="filterSelection('CLOTHING')">CLOTHING</button>
+    <button class="btn" onclick="filterSelection('HEADWEAR')">HEADWEAR</button>
+
+    <button class="btn" onclick="filterSelection('ACCESSORIES')">ACCESSORIES</button>
+  </div>
+
+  <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+  <div class="mcontainer">
+    <div class="filterDiv CLOTHING">
+  <img src="./img/Top1.jpg">
+  <img src="./img/Top2.jpg">
+  <img src="./img/Top3.jpg">
+  <img src="./img/Top4.jpg">
+  <img src="./img/Top5.jpg">
+  <img src="./img/Top6.jpg">
+    </div>
+    <div class="filterDiv HEADWEAR">
+<img src="./img/HEAD1.jpg">
+<img src="./img/HEAD2.jpg">
+<img src="./img/HEAD3.jpg">
+    </div>
+    <div class="filterDiv ACCESSORIES">
+      <img src="./img/ACCESSORIES1.jpg">
+<img src="./img/ACCESSORIES2.jpg">
+<img src="./img/ACCESSORIES3.jpg">
+    </div>
+
+  </div>
+
+
+
+  <script>
+
+    filterSelection("all")
+    function filterSelection(c) {
+      var x, i;
+      x = document.getElementsByClassName("filterDiv");
+      if (c == "all") c = "";
+      // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+      for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+      }
+    }
+
+    // Show filtered elements
+    function w3AddClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) {
+          element.className += " " + arr2[i];
+        }
+      }
+    }
+
+    // Hide elements that are not selected
+    function w3RemoveClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+          arr1.splice(arr1.indexOf(arr2[i]), 1);
+        }
+      }
+      element.className = arr1.join(" ");
+    }
+
+    // Add active class to the current control button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("mactive");
+        current[0].className = current[0].className.replace(" mactive", "");
+        this.className += " mactive";
+      });
+    }
+
+    </script>
+
+
+</body>
