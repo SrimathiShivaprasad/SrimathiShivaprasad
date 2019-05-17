@@ -63,10 +63,10 @@ nav {
 }
 
 .content{
-  position:fixed;
+  position:relative;
   margin-top: 460px;
   margin-left: 880px;
-    opacity: .80;
+    opacity: .90;
 
 }
 
