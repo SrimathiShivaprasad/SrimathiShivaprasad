@@ -51,14 +51,14 @@ nav {
 
 .myvideo{
   position: fixed;
-  top: 50%;
-  left: 50%;
+  /* top: 50%;
+  left: 50%; */
   min-width: 100vh;
   min-height: 100vh;
   width: auto;
   height: auto;
   z-index: -100%;
-  transform:translate(-50%, -50%);
+  /* transform:translate(-50%, -50%); */
 
 }
 
