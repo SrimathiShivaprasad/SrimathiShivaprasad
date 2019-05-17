@@ -42,9 +42,6 @@ nav {
   right: 0;
   background: rgba(13, 13, 13, 0.8)
 
-
-
-
 }
 
 .titleLogo {
@@ -54,13 +51,15 @@ nav {
 
 .myvideo{
   position: fixed;
-  top: 40%;
+  top: 50%;
   left: 50%;
-  min-width: 100%;
-  min-height: 100%;
+  /* right:0;
+  top: 0; */
+  min-width: 100vh;
+  min-height: 100vh;
   width: auto;
   height: auto;
-  z-index: -100%;
+  /* z-index: -100%; */
   transform:translate(-50%, -50%);
 }
 
@@ -143,7 +142,10 @@ h3 {
   text-align: center;
   padding-top: 20px;
 
+}
 
+h4{
+font-size: 30px;
 
 }
 .container{
@@ -187,11 +189,17 @@ box-shadow:14px 14px 57px #3E3E3E;
 }
 
 .box1{
-  padding-top: 25px;
+  padding-top: 3px;
   padding-left: 25px;
+
 }
+
+.box1 img {
+  padding-right: 50px;
+}
+
 .rectangle1 {
-height: 380px;
+height: 580px;
 width: 1300px;
 background-color: white;
 box-shadow:2px 1px 17px #3E3E3E;
