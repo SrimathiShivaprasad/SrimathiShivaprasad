@@ -162,9 +162,10 @@ font-size: 30px;
 }
 
 .videos {
-
-  padding-left: 450px;
-  padding-top: 10px;
+  width: 1200px;
+  margin: auto;
+  /* padding-left: 450px;
+  padding-top: 10px; */
 
 }
 
@@ -177,7 +178,8 @@ font-size: 30px;
 }
 
 .row2{
-  margin-left: 10%;
+  width: 1200px;
+  margin: auto;
 
 }
 .row1 img {
