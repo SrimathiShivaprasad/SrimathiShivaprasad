@@ -63,9 +63,9 @@ nav {
 }
 
 .content{
-  position:fixed;
-  /* margin-top: 360px;
-  margin-left: 680px; */
+  position: absolute;
+  margin-top: 360px;
+  margin-left: 680px;
   text-align: center;
 
 
