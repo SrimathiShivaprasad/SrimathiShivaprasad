@@ -44,6 +44,8 @@ nav {
 
 }
 
+
+
 .titleLogo {
   text-align: center;
   padding-top: 10px;
@@ -63,11 +65,12 @@ nav {
 }
 
 .content{
-  position: absolute;
-  margin-top: 360px;
-  margin-left: 680px;
-  text-align: center;
-
+  display: block;
+  position: fixed;
+  /* margin: auto;
+  width: auto; */
+  margin-left: 50%;
+  margin-top: 20%;
 
 }
 
