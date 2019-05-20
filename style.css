@@ -173,7 +173,8 @@ font-size: 30px;
 .row1 {
 align-items: center;
 /* display: inline-block; */
-  margin: 0 10% 0 10%;
+  margin: auto;
+  padding-left: 10%;
 }
 
 .row2{
