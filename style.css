@@ -171,10 +171,9 @@ font-size: 30px;
 
 
 .row1 {
-align-items: center;
-/* display: inline-block; */
+  width: 1200px;
   margin: auto;
-  padding-left: 10%;
+
 }
 
 .row2{
@@ -193,6 +192,9 @@ box-shadow:14px 14px 57px #3E3E3E;
   margin-top: 30px;
 }
 
+
+
+/* styling for discography */
 .box1{
   padding-top: 3px;
   padding-left: 25px;
