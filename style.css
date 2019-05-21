@@ -104,6 +104,11 @@ color: #7ED321;
   box-sizing: border-box;
 }
 
+hr {
+margin-bottom:20px;
+margin-right: 25px;
+}
+
 .column {
   margin-top: 10px;
   float: left;
@@ -151,18 +156,36 @@ h3 {
 
 h4{
 font-size: 30px;
-padding-bottom: 50px;
+padding-bottom: 40px;
 
 }
-.container{
-  padding-left: 40px;
-  padding-top: 10px;
+.container::after{
+  content: "";
+  clear: both;
+}
+.container1{
+
+float: left;
+position: relative;
+width: 25%;
+max-width: 300px;
+margin-left: 45px;
+margin-top: 10px;
+margin-bottom: 50px;
+
 }
 
-.container img {
+
+
+.theguys{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/* .container img {
   padding-left: 15px;
 
-}
+} */
 
 .videos {
   width: 1200px;
@@ -171,6 +194,7 @@ padding-bottom: 50px;
   padding-top: 10px; */
 
 }
+
 
 
 
@@ -226,11 +250,11 @@ margin-bottom: 50px;
   bottom: 0;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #f1f1f1;
+  /* color: orange; */
   width: 100%;
   transition: .5s ease;
   opacity:0;
-  color: white;
+
   font-size: 20px;
   padding: 20px;
   text-align: center;
@@ -261,7 +285,7 @@ font-weight: 400;
 }
 
 /* When you mouse over the container, fade in the overlay title */
-.container:hover .overlay {
+.container1:hover .overlay {
   opacity: 1;
 }
 /* Clear floats after the columns */
