@@ -3,7 +3,61 @@ body {
   margin:0px;
 }
 
+.active{
 
+  /* content: '';
+  display: block; */
+  /* width: 0;
+  height: 3px;
+  background: red; */
+
+color: #9C27EB !important;
+text-decoration: underline;
+
+}
+
+
+.cool-link {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #9C27EB;
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    //transition: width .3s;
+
+}
+
+.cool-link1 {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.cool-link1::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background:#7ED321;
+    transition: width .1s;
+}
+
+.cool-link1:hover::after {
+    width: 100%;
+    //transition: width .3s;
+
+}
 nav ul {
   list-style-type: none;
   padding: 0px 0px;
@@ -26,13 +80,12 @@ nav li {
   padding: 0px 40px 0px 0px;
   text-decoration: none;
   margin-left: 40px;
+}
+
+
 
 }
-.active{
-color: #7ED321 !important;
-/* font-size: 18px;
-font-weight: 500; */
-}
+
 .p1{
 font-size: 10px !important;
 }
@@ -51,6 +104,7 @@ nav {
 .titleLogo {
   text-align: center;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .myvideo{
@@ -226,6 +280,7 @@ box-shadow:14px 14px 57px #3E3E3E;
 
 
 /* styling for discography */
+
 .box1{
   padding-top: 3px;
   padding-left: 25px;
